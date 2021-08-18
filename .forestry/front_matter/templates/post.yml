@@ -21,6 +21,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  hidden: true
 - name: timeToRead
   type: number
   label: Read Time
@@ -34,8 +35,9 @@ fields:
 - name: hero
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Hero Image
+  hidden: true
 - name: authors
   type: tag_list
   default: []
